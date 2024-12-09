@@ -1,6 +1,7 @@
 # LinkedIn_Profile_Scrapper
 Made a python script to scrape data from linkedin and export it to a JSON file. Using Selenium and beautiful soup. 
-The code returns a python dictionary
+The function returns a python dictionary containing full_name, profile_pic_image, banner_image, linkedin_url, about_section, experience, project, skills. It also save the JSON file in the same directory.
+Get the data as per your convineince. POINT TO NOTE: This code might get out dated easily, as the linkedin company frequently makes changes to their html names and classes along with its structure, but the general principle of hardcoded scrapping remains the same.
 
 # To run
 1 . First install all the requirements:
