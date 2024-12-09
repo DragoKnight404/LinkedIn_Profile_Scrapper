@@ -8,14 +8,16 @@ Get the data as per your convineince. POINT TO NOTE: This code might get out dat
 ```
 pip install -r requirements.txt
 ```
-2. Pass the url of the profile you want to scrape:
+2 . Pass the url of the profile you want to scrape:
 ```
 python scrapper.py "https://www.linkedin.com/in/aryan-kanyawar-1a5482290/"
 ```
-3. A JSON file would be created with the fetched data within the same directory
+3 . A JSON file would be created with the fetched data within the same directory
 
-4. create a .env file and put, make a dummy account on linkedin, DO NOT USE your own credentials, your account might get banned or you might face legal consequences as per the terms and conditions.
+4 . create a .env file and put, make a dummy account on linkedin, DO NOT USE your own credentials, your account might get banned or you might face legal consequences as per the terms and conditions.
 EMAIL="YOUR_EMAIL"
 PASSWORD="YOUR_PASSWORD"
 
-5. Refer to Test.py on how to call the function and view scrapper.py to understand the scrapping code
+5 . Refer to Test.py on how to call the function and view scrapper.py to understand the scrapping code
+
+6 . ipynb files were used in order to develop and test logic. 
